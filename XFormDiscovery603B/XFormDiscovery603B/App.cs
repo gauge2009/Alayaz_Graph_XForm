@@ -9,6 +9,7 @@ namespace XFormDiscovery603B
 {
     public class App : Application
     {
+        const string displayLabelText = "displayLabelText";
         public App()
         {
             //// The root page of your application
@@ -25,8 +26,14 @@ namespace XFormDiscovery603B
             //        }
             //    }
             //};
+
+            if (Properties.ContainsKey(displayLabelText))
+            {
+                DisplayLabelText = (string)Properties[displayLabelText];
+            }
             MainPage = new XFormDiscovery603B.MainPage();
         }
+        public string DisplayLabelText { set; get; }
 
         protected override void OnStart()
         {
@@ -36,6 +43,7 @@ namespace XFormDiscovery603B
         protected override void OnSleep()
         {
             // Handle when your app sleeps
+            Properties[displayLabelText] = DisplayLabelText;
         }
 
         protected override void OnResume()
