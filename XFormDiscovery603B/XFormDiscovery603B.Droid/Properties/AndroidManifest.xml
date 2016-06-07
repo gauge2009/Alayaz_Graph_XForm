@@ -2,5 +2,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="XFormDiscovery603B.Droid" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="15" />
 	<uses-permission android:name="android.permission.CALL_PHONE" />
-	<application android:label="XFormDiscovery603B"></application>
+	<application android:label="XFormDiscovery603B" android:theme="@style/android:Theme.Holo.Light" ></application>
 </manifest>
