@@ -56,8 +56,34 @@ namespace XFormDiscovery603B
 
 
 
+            /// 平台项目（XFormDiscovery603B.Droid / XFormDiscovery603B.iOS / XFormDiscovery603B.Windows）中的类如何在PCL中使用？
+            //见Charles_Petzold\Chapter09\MonkeyTapWithSound\MonkeyTapWithSound.sln
 
 
+            ///使用静态资源 乃至 资源字典
+            //见C:\T2_16\Graph\Xamarin\src\Charles_Petzold\Chapter10
+
+
+
+            ///定义可绑定的元素/属性~类比WPF的可观察对象及改变通知机制
+            //见C:\T2_16\Graph\Xamarin\src\Charles_Petzold\Chapter11\PointSizedText\PointSizedText.sln
+            //另见C:\T2_16\Graph\Xamarin\src\Charles_Petzold\Libraries\Xamarin.FormsBook.Toolkit\Xamarin.FormsBook.Toolkit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /// Xamarin.FormsBook.Toolkit  见C:\T2_16\Graph\Xamarin\src\Charles_Petzold\Libraries\Xamarin.FormsBook.Toolkit\Xamarin.FormsBook.Toolkit
+            //较具有参考价值的架构元件
         }
 
         private void xxx()
