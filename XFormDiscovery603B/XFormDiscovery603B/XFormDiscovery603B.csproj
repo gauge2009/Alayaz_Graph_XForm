@@ -39,6 +39,12 @@
     <Compile Include="CallHistoryPage.xaml.cs">
       <DependentUpon>CallHistoryPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ScaryColorListPage.xaml.cs">
+      <DependentUpon>ScaryColorListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ColorView.xaml.cs">
+      <DependentUpon>ColorView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="IDialer.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -78,6 +84,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Texts\TheBlackCat.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ColorView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ScaryColorListPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.0.0.6482\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.0.0.6482\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

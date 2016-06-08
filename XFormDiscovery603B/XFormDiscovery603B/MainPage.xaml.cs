@@ -44,14 +44,15 @@ namespace XFormDiscovery603B
             //KeypadPersistentDemo();
 
 
-            ///关于XAML 
+             
             /// Xaml 与 CodeBehind 混搭(综合实例)
             XamlDemo();
-
-
-
-
-
+            /// 纯 Xaml  
+            //见 ScaryColorListPage.xaml
+            ///Code and XAML in harmony  ：  Custom XAML-based views  
+            //见 ColorView.xaml
+            /// Xaml 与 TapGestureRecognizer Tapped="OnBoxViewTapped" 
+            //见Charles_Petzold\Chapter08\MonkeyTap\MonkeyTap.sln
 
 
 
